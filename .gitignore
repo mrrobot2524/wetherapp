@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+.env.*
+*.db
+instance/
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+coverage/
+*.cover
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/__pycache__/
+alembic.ini.bak
+
+# Node/frontend (если есть)
+node_modules/
+*.map
+*.tsbuildinfo
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
