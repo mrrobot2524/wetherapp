@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Погода</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Прогноз Погоды</h1>
+
+    <label class="theme-switch">
+      <input type="checkbox" id="themeToggle" />
+      <span>🌙 Тёмная тема</span>
+    </label>
+
+    <div class="input-group">
+      <input type="text" id="cityInput" placeholder="Введите город..." autocomplete="off" />
+      <ul id="suggestions"></ul>
+      <button id="searchBtn">Показать</button>
+      <button id="clearBtn" class="clear-btn">Очистить последний город</button>
+    </div>
+
+    <div id="result" class="weather-card"></div>
+    <button id="logoutBtn" class="logout-btn">Выйти</button>
+  </div>
+  <script src="/static/scripts.js"></script>
+</body>
+</html>
